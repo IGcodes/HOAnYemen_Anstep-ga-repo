@@ -47,7 +47,7 @@ This directory holds all scripts for the downstream population genetic analysis 
   * RoH_Calculation.ipynb: Jupyter Notebook using scikit-allel's Hidden Markov Model (allel.roh_mhmm) to identify and plot ROH and calculate the fraction of the genome in ROH (fROH).
   * H12_viz.py: Python script using matplotlib to plot the genome-wide distribution of H12 values.
   * RoH_viz.sh: HPC shell script to process bcftools roh output files and prepare them for visualization.
-```/ddRAD_analysis/```
+### ```/ddRAD_analysis/```
 This directory mirrors many of the analyses from the WGS folder but is applied to the ddRAD-seq dataset.
   * BAfilter_N_Phasing.sh: HPC shell script to filter the ddRAD VCF for bialleleic SNPs (bcftools view) and phase it using beagle.
   * Fst_Calc.sh: HPC shell script to loop through population pairs and calculate windowed Fst using vcftools.
